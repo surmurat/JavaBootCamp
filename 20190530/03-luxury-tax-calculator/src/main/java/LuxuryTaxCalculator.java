@@ -26,13 +26,9 @@ public class LuxuryTaxCalculator {
         double budget = 40.000000;
         double tax = (spending - 40000000) * 0.18;
 
-        if (spending > budget){
+        if (spending > budget) {
             System.out.printf("There is outstanding tax balance of %.2f", tax);
         }
-
-
-
-
 
 
     }
