@@ -69,17 +69,17 @@ public class AppTest {
          assertEquals(failMessage, 101, App.secondLargestNumber(intTest4));
      }
 
-    // @Test
-    // public void testSwapFirstAndLast() {
-    //     String[] output1 = new String[] {"qux", "bar", "baz", "foo"};
-    //     String[] output2 = new String[] {"Apple", "C#", "C++", "Python", "C", "JavaScript", "Java"};
-    //     String[] output3 = new String[] {"Lenovo", "Dell"};
+     @Test
+     public void testSwapFirstAndLast() {
+         String[] output1 = new String[] {"qux", "bar", "baz", "foo"};
+         String[] output2 = new String[] {"Apple", "C#", "C++", "Python", "C", "JavaScript", "Java"};
+         String[] output3 = new String[] {"Lenovo", "Dell"};
 
-    //     String failMessage = "Expected method to swap first and last indices";
-    //     assertArrayEquals(failMessage, output1, App.swapFirstAndLast(stringTest1));
-    //     assertArrayEquals(failMessage, output2, App.swapFirstAndLast(stringTest2));
-    //     assertArrayEquals(failMessage, output3, App.swapFirstAndLast(stringTest3));
-    // }
+         String failMessage = "Expected method to swap first and last indices";
+         assertArrayEquals(failMessage, output1, App.swapFirstAndLast(stringTest1));
+         assertArrayEquals(failMessage, output2, App.swapFirstAndLast(stringTest2));
+         assertArrayEquals(failMessage, output3, App.swapFirstAndLast(stringTest3));
+     }
 
      @Test
      public void testReverse() {
@@ -108,18 +108,18 @@ public class AppTest {
          assertEquals(failMessage, "DellLenovo", App.concatenateString(stringTest3));
      }
 
-    // @Test
-    // public void testEveryThird() {
-    //     int[] output1 = new int[] {2, 5};
-    //     int[] output3 = new int[] {102};
-    //     int[] output4 = new int[] {5, 6, 10, 43, 3, 12};
-
-    //     String failMessage = "Expected method to return an array with every third element";
-    //     assertArrayEquals(failMessage, output1, App.everyThird(intTest1));
-    //     assertNull(failMessage, App.everyThird(intTest2));
-    //     assertArrayEquals(failMessage, output3, App.everyThird(intTest3));
-    //     assertArrayEquals(failMessage, output4, App.everyThird(intTest4));
-    // }
+//     @Test
+//     public void testEveryThird() {
+//         int[] output1 = new int[] {2, 5};
+//         int[] output3 = new int[] {102};
+//         int[] output4 = new int[] {5, 6, 10, 43, 3, 12};
+//
+//         String failMessage = "Expected method to return an array with every third element";
+//         assertArrayEquals(failMessage, output1, App.everyThird(intTest1));
+//         assertNull(failMessage, App.everyThird(intTest2));
+//         assertArrayEquals(failMessage, output3, App.everyThird(intTest3));
+//         assertArrayEquals(failMessage, output4, App.everyThird(intTest4));
+//     }
 
 //     @Test
 //     public void testLessThan5() {

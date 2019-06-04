@@ -28,6 +28,10 @@ public class App {
 
         System.out.println("This is the list of numbers every third :" + concatenateString(conArr));
 
+        String[] concatArr = {"foo", "bar", "baz", "qux"};
+        String[] swapFirstLast = swapFirstAndLast(concatArr);
+        System.out.println(" The new array with the Last item and the first item swapped is: " + Arrays.toString(swapFirstLast));
+
 
 
 
@@ -121,6 +125,17 @@ public class App {
 
         return conArray;
     }
+
+    public static String[] swapFirstAndLast(String[] arr){
+        String temp = arr[0];
+        arr[0] = arr[arr.length - 1];
+        arr[arr.length-1] = temp;
+        return arr;
+    }
+
+
+
+
 
 
 
