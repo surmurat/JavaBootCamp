@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d31161c-b541-4324-b116-9630781c50bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/U1M1L6Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/U1M1L6Katas/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M1L6Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/U1M1L6Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/U1M1L6Katas/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/U1M1L6Katas/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="-1804">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/U1M1L6Katas/src/test/java/com/company/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="121" selection-end-column="8" />
+            <state relative-caret-position="96">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +51,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/U1M1L6Katas/src/main/java/com/company/App.java" />
         <option value="$PROJECT_DIR$/U1M1L6Katas/src/test/java/com/company/AppTest.java" />
+        <option value="$PROJECT_DIR$/U1M1L6Katas/src/main/java/com/company/App.java" />
       </list>
     </option>
   </component>
@@ -78,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
@@ -181,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.App" />
       <module name="U1-M1-L6-Katas" />
@@ -242,7 +241,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testLessThan5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testSwapFirstAndLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="U1-M1-L6-Katas" />
       <extension name="coverage">
         <pattern>
@@ -252,7 +251,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
-      <option name="METHOD_NAME" value="testLessThan5" />
+      <option name="METHOD_NAME" value="testSwapFirstAndLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testSwapFirstAndLast" />
         <item itemvalue="JUnit.AppTest.testConcatenate" />
         <item itemvalue="JUnit.AppTest.testEvensAndOdds" />
-        <item itemvalue="JUnit.AppTest.testLessThan5" />
       </list>
     </recent_temporary>
   </component>
@@ -282,15 +281,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testSecondLargest - 2019.06.03 at 13h 05m 53s.xml">
-      <configuration name="AppTest.testSecondLargest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testSecondLargest - 2019.06.03 at 13h 09m 48s.xml">
-      <configuration name="AppTest.testSecondLargest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testReverse - 2019.06.03 at 14h 16m 13s.xml">
-      <configuration name="AppTest.testReverse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_testTotal - 2019.06.03 at 14h 37m 17s.xml">
       <configuration name="AppTest.testTotal" configurationId="JUnit" />
     </history-entry>
@@ -312,9 +302,18 @@
     <history-entry file="AppTest - 2019.06.04 at 06h 42m 16s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.06.04 at 07h 02m 48s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testSwapFirstAndLast - 2019.06.04 at 07h 12m 46s.xml">
+      <configuration name="AppTest.testSwapFirstAndLast" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.06.04 at 07h 13m 29s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15100671" />
@@ -326,7 +325,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22108346" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,6 +352,9 @@
     <SUITE FILE_PATH="coverage/starter_code$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1559644865108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/starter_code$AppTest_testSwapFirstAndLast.ic" NAME="AppTest.testSwapFirstAndLast Coverage Results" MODIFIED="1559646743636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../../../helloandadd/karsilastirm/friday/04-lesson/activities/katas/starter-code/methods/src/main/java/Methods.java">
@@ -365,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M1L6Katas/src/test/java/com/company/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="121" selection-end-column="8" />
+        <state relative-caret-position="96">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -375,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/U1M1L6Katas/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="-1804">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

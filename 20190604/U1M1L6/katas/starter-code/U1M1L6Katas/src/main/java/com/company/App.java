@@ -26,7 +26,9 @@ public class App {
 
         System.out.println("Total sum of odd number is: " + totalEven(testArr));
 
-        System.out.println("This is the list of numbers every third :" + concatenateString(conArr));
+        String concat = concatenateString(conArr);
+        System.out.println(" The concatenated Sting of all the items in the array is: "+ concat);
+
 
         String[] concatArr = {"foo", "bar", "baz", "qux"};
         String[] swapFirstLast = swapFirstAndLast(concatArr);
@@ -118,12 +120,11 @@ public class App {
     }
 
     public static String concatenateString(String[] arr){
-        String[] strArr = new String[]{};
-
-        String str = arr.toString();
-        String conArray = String.join("", arr);
-
-        return conArray;
+        String j="";
+        for( int i = 0; i < arr.length; i++){
+            j += arr[i];
+        }
+        return j;
     }
 
     public static String[] swapFirstAndLast(String[] arr){
