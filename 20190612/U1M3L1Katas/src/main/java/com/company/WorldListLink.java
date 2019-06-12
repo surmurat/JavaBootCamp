@@ -1,0 +1,44 @@
+package com.company;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class WorldListLink {
+
+    public static void main(String[] args) {
+
+        /*String[] wordList = {"byte", "case", "catch", "class", "const", "continue", "do", "double", "else", "extends"};
+
+        for(String element : wordList) {
+            System.out.println(element);
+        }*/
+
+        LinkedList<String> words = new LinkedList<>();
+
+        words.add("byte");
+        words.add("case");
+        words.add("catch");
+        words.add("class");
+        words.add("const");
+        words.add("continue");
+        words.add("do");
+        words.add("double");
+        words.add("else");
+        words.add("extends");
+
+        System.out.println(words);
+
+        Iterator<String> iter = words.iterator();
+
+        while (iter.hasNext()){
+            System.out.println(iter.next());
+        }
+
+        System.out.println("words of array");
+
+
+    }
+
+}
