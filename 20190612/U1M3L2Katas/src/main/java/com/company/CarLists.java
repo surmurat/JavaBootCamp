@@ -1,7 +1,6 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class CarLists {
 
@@ -35,6 +34,17 @@ public class CarLists {
         hondaList.add(accord);
         hondaList.add(civic);
         hondaList.add(fit);
+
+        Map<String, List<Car>> newMap = new HashMap<>();
+        newMap.put(camry.getMake(), toyotaList);
+        newMap.put(mustang.getMake(), fordList);
+        newMap.put(accord.getMake(), hondaList);
+        Set<Map.Entry<String, List<Car>>> newEntry = newMap.entrySet();
+        for (Map.Entry<String, List<Car>> element : newEntry) {
+            for(Car carList: element.getValue()){
+                System.out.println("Make: "+ carList.getMake()+ " , Model: "+ carList.getModel());
+            }
+        }
 
     }
 }
