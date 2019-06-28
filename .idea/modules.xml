@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaBootCamp.iml" filepath="$PROJECT_DIR$/.idea/JavaBootCamp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/20190603/U1M1L5/katas/starter-code/U1M1L5Katas/U1-M1-L5-katas.iml" filepath="$PROJECT_DIR$/20190603/U1M1L5/katas/starter-code/U1M1L5Katas/U1-M1-L5-katas.iml" />
     </modules>
   </component>
 </project>
